@@ -134,19 +134,7 @@ export async function ProjectContent({
                   </Link>
                 </Button>
               )}
-              {github && (
-                <Button variant="outline" asChild>
-                  <Link
-                    href={github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2"
-                  >
-                    <GithubIcon />
-                    Source Code
-                  </Link>
-                </Button>
-              )}
+
             </div>
           </div>
 
